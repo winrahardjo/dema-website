@@ -46,7 +46,7 @@ header {
   background-position: center;
   height: 100vh;
   background-size: 105%;
-  background-position-x: 65%;
+  background-position-x: 50%;
   background-position-y: 35%;
   background-repeat: no-repeat; /*parallax*/
   background-attachment: fixed; /*parallax*/
