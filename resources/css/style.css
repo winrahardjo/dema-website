@@ -41,7 +41,7 @@ section {
 /* =========================== */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    /*ada dua layer disini: transparan dan gambar*/ url(css-img/jumbotron1.png);
+    /*ada dua layer disini: transparan dan gambar*/ url(css-img/jumbotron2.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
