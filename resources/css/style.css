@@ -234,12 +234,12 @@ h3:after {
 }
 
 .mission-desc {
-  padding: 1%;
+  padding: 0.5%;
 }
 
 .mission-desc p {
   line-height: 145%;
-  font-size: 95%;
+  font-size: 80%;
 }
 
 .mission-desc ion-icon {
