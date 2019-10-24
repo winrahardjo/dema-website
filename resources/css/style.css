@@ -246,6 +246,25 @@ h3:after {
   font-size: 250%;
   color: rgba(169, 151, 223, 0.775);
 }
+/* =========================== */
+/* JARGON*/
+/* =========================== */
+
+.jargon-section {
+  width: 100%;
+}
+
+.jargon-title {
+  height: 250px;
+  border: 1px red solid;
+  background-color: yellow;
+}
+
+.jargon-content {
+  height: 250px;
+  border: 1px blue solid;
+  background-color: black;
+}
 
 /* =========================== */
 /* BEM'S DOCUMENTATIONS */
@@ -273,7 +292,7 @@ h3:after {
   opacity: 0.5;
   width: 100%;
   height: auto;
-  transform: scale(1.3);
+  transform: scale(1.3); /*untuk anti border tiap foto*/
   transition: transform 0.7s;
 }
 
