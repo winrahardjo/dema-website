@@ -252,18 +252,37 @@ h3:after {
 
 .jargon-section {
   width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  margin-top: 60px;
 }
 
 .jargon-title {
-  height: 250px;
-  border: 1px red solid;
+  width: 33%;
+  height: 100%;
+  float: left;
   background-color: yellow;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 64px;
 }
 
 .jargon-content {
-  height: 250px;
-  border: 1px blue solid;
-  background-color: black;
+  width: 66%;
+  height: 100%;
+  float: right;
+  background-color: green;
+  display: inline-block;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 55px;
+}
+
+.jargon-content ul {
+  list-style: none;
 }
 
 /* =========================== */
