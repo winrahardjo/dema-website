@@ -250,7 +250,11 @@ h3:after {
 /* JARGON*/
 /* =========================== */
 
-.jargon-section {
+.section-jargon {
+  margin-bottom: 140px; /*add 20px from default*/
+}
+
+.jargon-box {
   width: 100%;
   height: 400px;
   margin: 0;
@@ -264,19 +268,18 @@ h3:after {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-align: right;
-  font-size: 100px;
-  padding: 140px 20px;
+  font-size: 500%;
+  padding: 10% 5px 10% 0;
 }
 
 .jargon-content {
   height: 100%;
   background-color: rgb(255, 255, 255);
-  border: 5px solid rgb(169, 151, 223);
   display: inline-block;
   text-transform: capitalize;
   text-align: left;
-  font-size: 55px;
-  padding: 70px 20px;
+  font-size: 275%;
+  padding: 4% 5px;
 }
 
 .jargon-content ul {
