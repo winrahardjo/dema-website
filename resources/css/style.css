@@ -547,6 +547,7 @@ footer {
   text-align: center;
 }
 
+
 .menu-footer li {
   display: inline-block;
   margin: 0 10px;
@@ -557,6 +558,11 @@ footer {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+.menu-footer li a:hover {
+  color: rgba(169, 151, 223, 0.575);
+}
+
 
 .logo-footer {
   width: 100%;
