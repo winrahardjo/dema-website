@@ -222,7 +222,7 @@ h3:after {
   content: "";
   width: 180px;
   margin-top: 10px;
-  background-color: rgba(169, 151, 223, 0.575);
+  background-color: rgba(135, 109, 216, 0.775);
 }
 
 .vision-desc {
@@ -244,7 +244,7 @@ h3:after {
 
 .mission-desc ion-icon {
   font-size: 250%;
-  color: rgba(169, 151, 223, 0.775);
+  color: rgba(135, 109, 216, 0.775);
 }
 /* =========================== */
 /* JARGON*/
@@ -380,12 +380,14 @@ h3:after {
 
 .welcoming-speech {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(css-img/dufan.jpg);
+    url(css-img/speech-background.jpg);
   background-size: cover;
+  background-position-y: 70%;
+  background-size: 110%;
   color: rgb(255, 255, 255);
+  padding: 60px;
   background-attachment: fixed; /*parallax*/
   background-repeat: no-repeat; /*parallax*/
-  padding: 60px;
 }
 
 blockquote {
@@ -547,7 +549,6 @@ footer {
   text-align: center;
 }
 
-
 .menu-footer li {
   display: inline-block;
   margin: 0 10px;
@@ -562,7 +563,6 @@ footer {
 .menu-footer li a:hover {
   color: rgba(169, 151, 223, 0.575);
 }
-
 
 .logo-footer {
   width: 100%;
