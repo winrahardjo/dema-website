@@ -552,6 +552,12 @@ footer {
   margin: 0 10px;
 }
 
+.menu-footer li a:link,
+.menu-footer li a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 .logo-footer {
   width: 100%;
   text-align: center;
@@ -562,6 +568,12 @@ footer {
   display: inline-block;
   margin: 0 20px;
   font-size: 150%;
+}
+
+.logo-footer li a:link,
+.logo-footer li a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .logo-footer .twitter-i:hover {
