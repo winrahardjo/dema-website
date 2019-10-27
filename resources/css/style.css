@@ -630,11 +630,11 @@ footer {
   text-align: center;
 }
 
-.coba {
+.collage {
   height: 300px;
 }
 
-.kotak-orang {
+.collage #member-card {
   border: 1px solid green;
   height: 90%;
 }
@@ -646,5 +646,6 @@ footer {
 
 .isi-orang {
   border: 1px solid red;
-  height: 20%;
+  height: 15%;
+  margin-top: 10%;
 }
