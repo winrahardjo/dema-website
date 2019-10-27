@@ -618,7 +618,12 @@ footer {
 
 .sub-section {
   margin-top: 20px;
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
+}
+
+.collage {
+  height: 300px;
+  font-size: 75%;
 }
 
 .back-button {
@@ -630,11 +635,8 @@ footer {
   text-align: center;
 }
 
-.collage {
-  height: 300px;
-}
 
-.collage #member-card {
+.collage .member-card {
   border: 1px solid green;
   height: 90%;
 }
