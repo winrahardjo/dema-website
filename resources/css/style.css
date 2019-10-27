@@ -612,16 +612,39 @@ footer {
   padding-top: 30px;
 }
 
-
 /*  ====================================================== */
 /*  =================ABOUT US=============== */
 /*  ====================================================== */
+
+.sub-section {
+  margin-top: 20px;
+  border: 1px solid violet;
+}
 
 .back-button {
   text-align: right;
   margin-bottom: 40px;
 }
 
-.dema-desc {
+.dema-desc #dema-word-desc {
   text-align: center;
+}
+
+.coba {
+  height: 300px;
+}
+
+.kotak-orang {
+  border: 1px solid green;
+  height: 90%;
+}
+
+.foto-orang {
+  border: 1px solid blue;
+  height: 70%;
+}
+
+.isi-orang {
+  border: 1px solid red;
+  height: 20%;
 }
