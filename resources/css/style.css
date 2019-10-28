@@ -616,6 +616,10 @@ footer {
 /*  =================ABOUT US PAGE=============== */
 /*  ====================================================== */
 
+.about-us{
+  background-color: rgb(245, 245, 245);
+}
+
 .sub-section {
   margin-top: 20px;
   /* border: 1px solid violet; */
@@ -636,12 +640,12 @@ footer {
 }
 
 .collage .member-card {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 90%;
 }
 
 .photo-place {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 70%;
 }
 
@@ -649,4 +653,26 @@ footer {
   border: 1px solid red;
   height: 15%;
   margin-top: 10%;
+}
+
+.photo-place {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.photo-place img {
+  position: relative;
+  bottom: 40px;
+  opacity: 0.8;
+  width: 100%;
+  height: auto;
+  transform: scale(1.1); /*untuk anti border tiap foto*/
+  transition: transform 0.7s;
+}
+
+.photo-place img:hover {
+  opacity: 1;
+  transform: scale(1);
 }
