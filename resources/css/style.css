@@ -650,7 +650,7 @@ footer {
 }
 
 .desc-place {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 15%;
   margin-top: 10%;
 }
@@ -665,14 +665,26 @@ footer {
 .photo-place img {
   position: relative;
   bottom: 40px;
-  opacity: 0.8;
+  opacity: 0.9;
   width: 100%;
   height: auto;
-  transform: scale(1.1); /*untuk anti border tiap foto*/
+  transform: scale(1.05); /*untuk anti border tiap foto*/
   transition: transform 0.7s;
 }
 
 .photo-place img:hover {
   opacity: 1;
   transform: scale(1);
+}
+
+.desc-place h4 {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.desc-place h5 {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 500;
 }
