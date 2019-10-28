@@ -616,12 +616,12 @@ footer {
 /*  =================ABOUT US PAGE=============== */
 /*  ====================================================== */
 
-.about-us{
+.about-us {
   background-color: rgb(245, 245, 245);
 }
 
 .sub-section {
-  margin-top: 20px;
+  margin-top: 5px;
   /* border: 1px solid violet; */
 }
 
@@ -642,6 +642,10 @@ footer {
 .collage .member-card {
   /* border: 1px solid green; */
   height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .photo-place {
@@ -652,7 +656,7 @@ footer {
 .desc-place {
   /* border: 1px solid red; */
   height: 15%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .photo-place {
@@ -668,13 +672,29 @@ footer {
   opacity: 0.9;
   width: 100%;
   height: auto;
-  transform: scale(1.05); /*untuk anti border tiap foto*/
+  transform: scale(1); /*untuk anti border tiap foto*/
   transition: transform 0.7s;
 }
 
 .photo-place img:hover {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1.1);
+}
+
+.photo-place#department-box img {
+  position: relative;
+  top: 7px;
+  bottom: 0px;
+  opacity: 0.9;
+  width: 100%;
+  height: auto;
+  transform: scale(1.1); /*untuk anti border tiap foto*/
+  transition: transform 0.7s;
+}
+
+.photo-place#department-box img:hover {
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 .desc-place h4 {
@@ -687,4 +707,5 @@ footer {
   margin-top: 5px;
   text-align: center;
   font-weight: 500;
+  font-size: 90%;
 }
