@@ -464,20 +464,14 @@ cite img {
 }
 
 .where-to-suggest {
-  margin-top: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 300px;
 }
 
-.where-to-suggest:first-child {
-  text-align: center; /*it works to img too. not only text. inline block*/
-}
-
-.where-to-suggest:last-child {
-  text-align: left;
-  padding-top: 120px;
-}
-
-.sugestion-img {
+.where-to-suggest img {
   width: 65%;
+  text-align: center;
 }
 
 .make-suggestion {
