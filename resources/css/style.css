@@ -255,7 +255,7 @@ h3:after {
 /* =========================== */
 
 .section-jargon {
-  margin-bottom: 140px; /*add 20px from default*/
+   margin-bottom: 0; /*add 20px from default */
 }
 
 .jargon-box {
@@ -298,6 +298,14 @@ h3:after {
 /* =========================== */
 /* BEM'S DOCUMENTATIONS */
 /* =========================== */
+
+.section-docs {
+  margin-top: 0;
+}
+
+.jargon-box #jargon-box {
+  margin-bottom: 0;
+}
 
 .docs-rows {
   list-style: none;
