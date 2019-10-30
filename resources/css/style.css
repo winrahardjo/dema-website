@@ -502,7 +502,16 @@ cite img {
 .make-suggestion p {
   padding-top: 5px;
   font-weight: 300;
+<<<<<<< HEAD
   font-size: 150%;
+=======
+  /* border: 1px solid black; */
+  padding-left: 16px;
+}
+
+.where-to-suggest#suggest-text {
+  padding-top: 70px;
+>>>>>>> 04ee056... more fixing
 }
 
 .social-button {
