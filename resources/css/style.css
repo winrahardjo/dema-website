@@ -255,7 +255,7 @@ h3:after {
 /* =========================== */
 
 .section-jargon {
-   margin-bottom: 0; /*add 20px from default */
+  margin-bottom: 0; /*add 20px from default */
 }
 
 .jargon-box {
@@ -645,6 +645,16 @@ footer {
 .collage {
   height: 300px;
   font-size: 75%;
+}
+
+.collage#collage-header {
+  font-size: 80%;
+  margin-top: 70px;
+  height: 55px;
+}
+
+.collage#collage-header h2 {
+  text-transform: capitalize;
 }
 
 .back-button {
