@@ -10,8 +10,8 @@
       crossorigin="anonymous"
     />
 
-<link rel="stylesheet" href="resources/css/testBootstrap.css">
-<link
+    <link rel="stylesheet" href="resources/css/testBootstrap.css" />
+    <link
       rel="stylesheet"
       type="stylesheet"
       href="./vendors/css/normalize.css"
@@ -25,110 +25,83 @@
     />
 
     <link rel="stylesheet" href="./resources/css/style.css" />
-    <link rel="stylesheet" href="./resources/css/queries.css">
+    <link rel="stylesheet" href="./resources/css/queries.css" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
       rel="stylesheet"
     />
 
-
     <title>Document</title>
   </head>
   <body>
-    <h2>hello bootsrap</h2>
-    <h2>testing bootsrap</h2>
-    <div class="card" id="kartu" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a
-          class="btn btn-primary"
-          data-toggle="collapse"
-          href="#collapseExample"
-          role="button"
-        >
-          Details
-        </a>
-        </div>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-              terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-              labore wes anderson cred nesciunt sapiente ea proident.
+    <div>
+      <h2>hello bootsrap</h2>
+      <h2>testing bootsrap</h2>
+    </div>
+
+    <section class="row ">
+      <div class="col span-2-of-4 " id="">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <button
+                  id=""
+                  type="button"
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  href="#multiCollapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                >
+                  Details
+                </button>
+              </div>
             </div>
           </div>
+          <div class="details">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card ">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                ea proident.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-<!-- ============= WELCOMING SPEECHES ============= -->
-
-<section class="welcoming-speech">
-    <div class="row">
-      <h2>sekapur dua kapur sirih dari kami</h2>
-    </div>
-    <div class="row">
-      <div class="col span-1-of-3">
-        <blockquote>
-          <ion-icon name="quote"></ion-icon>
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
-          facilisis urna, sed pellentesque orci rhoncus vel. Quisque mi metus,
-          volutpat sit amet dictum vel, lobortis sit amet libero.
-          <br />
-          <ion-icon name="quote"></ion-icon>
-        </blockquote>
-        <cite>
-          <img src="resources/img/bem_member/bph/Arruum.jpg" alt="wakil-dema" />
-          <p class="person-name">Arruum Fajriyah,</p>
-          Wakil Presiden DEMA Fakultas Psikologi UIN Jakarta
-        </cite>
+      <div class="col span-2-of-4">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="col span-1-of-3">
-        <blockquote>
-          <ion-icon name="quote"></ion-icon>
-          <br />
-          ello ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
-          facilisis urna, sed pellentesque orci rhoncus vel. Quisque mi metus,
-          volutpat sit amet dictum vel, lobortis sit amet libero.
-          <br />
-          <ion-icon name="quote"></ion-icon>
-        </blockquote>
-        <cite>
-          <img src="resources/img/bem_member/bph/Shandi.jpg" alt="pres-dema" />
-          <p class="person-name">Shandi Fadhila,</p>
-          Presiden DEMA Fakultas Psikologi UIN Jakarta
-        </cite>
-      </div>
-
-      <div class="col span-1-of-3">
-        <blockquote>
-          <ion-icon name="quote"></ion-icon>
-          <br />
-          ello ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
-          facilisis urna, sed pellentesque orci rhoncus vel. Quisque mi metus,
-          volutpat sit amet dictum vel, lobortis sit amet libero.
-          <br />
-          <ion-icon name="quote"></ion-icon>
-        </blockquote>
-        <cite>
-          <img src="resources/img/bem_member/bph/Aditya.jpg" alt="sek-dema" />
-          <p class="person-name">Aditya Roihansyah,</p>
-          Sekretaris Jendral DEMA Fakultas Psikologi UIN Jakarta
-        </cite>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-
-
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
