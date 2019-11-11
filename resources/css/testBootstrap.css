@@ -1,7 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .event-name h5 {
   margin-top: ;
   margin-left: 10px;
   margin-top: 10px;
+}
+
+.pembungkus {
+  /* width: 100%; */
+  border: 1px solid blue;
+}
+
+.section-contoh {
+  border: 1px solid black;
 }
 
 #card-wrap {
@@ -30,35 +44,17 @@
   padding-right: 10px;
 }
 
+
 #card-desc {
   font-size: 95%;
-  padding-left: 10px;
+  padding: 10px;
   margin: 0;
+}
+
+#card-desc-bottom {
+  padding: 10px;
 }
 
 /* ===================== */
 
-.row-cards {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-.kartu {
-  border: 1px solid pink;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.card-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#custom-button {
-  margin: 0;
-  padding: 0;
-}
