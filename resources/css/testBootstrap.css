@@ -23,13 +23,18 @@
   text-decoration: none;
 }
 
+#card-desc-top {
+  font-size: 95%;
+  padding-left: 10px;
+  margin: 0;
+  padding-right: 10px;
+}
+
 #card-desc {
   font-size: 95%;
   padding-left: 10px;
   margin: 0;
 }
-
-
 
 /* ===================== */
 
