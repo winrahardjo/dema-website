@@ -1,3 +1,38 @@
+.event-name h5 {
+  margin-top: ;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#card-wrap {
+  font-size: 80%;
+}
+
+#button-card {
+  font-size: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 2px;
+  color: rgb(169, 151, 223);
+}
+
+#button-card:hover {
+  background-color: rgb(169, 151, 223);
+  color: white;
+  text-decoration: none;
+}
+
+#card-desc {
+  font-size: 95%;
+  padding-left: 10px;
+  margin: 0;
+}
+
+
+
+/* ===================== */
+
 .row-cards {
   max-width: 1140px;
   margin: 0 auto;
