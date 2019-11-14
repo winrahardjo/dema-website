@@ -17,7 +17,7 @@
   border: 1px solid black;
 }
 
-/* bug fixer */
+/* bug fixer start here */
 .section-contoh#contoh-section {
   margin-bottom: 200px;
 }
