@@ -1,14 +1,51 @@
 .event-name h5 {
-  margin-top: ;
   margin-left: 10px;
   margin-top: 10px;
 }
 
-#card-wrap {
+/* .card-section {
+  width: 100%;
+} */
+
+/* bug fixer start here */
+.card-section#section-space {
+  margin-bottom: 200px;
+}
+/* bug fixer end here */
+
+.bigger-wrapper {
+  width: 100%;
+}
+
+.bigger-wrapper #card-wrap {
   font-size: 80%;
 }
 
-#button-card {
+#card-desc {
+  font-size: 95%;
+  padding: 10px;
+  margin: 0;
+}
+
+<<<<<<< HEAD
+=======
+#card-desc-top {
+  text-align: justify;
+  font-size: 95%;
+  padding-left: 10px;
+  margin: 0;
+  padding-right: 10px;
+}
+
+/* SUMBER BUGGG BANGSAT */
+#card-desc-bottom {
+  padding: 0 5px;
+  text-align: justify;
+  margin: 0 5px;
+  border: none;
+}
+
+#card-button {
   font-size: 95%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -17,16 +54,11 @@
   color: rgb(169, 151, 223);
 }
 
-#button-card:hover {
+#card-button:hover {
   background-color: rgb(169, 151, 223);
   color: white;
   text-decoration: none;
 }
 
-#card-desc {
-  font-size: 95%;
-  padding-left: 10px;
-  margin: 0;
-}
-
+>>>>>>> card-model
 /* ===================== */
