@@ -568,7 +568,6 @@ footer {
   padding-right: 50px;
   padding-left: 50px;
   padding-bottom: 20px;
-  margin-top: 100px;
 }
 
 .menu-footer {
@@ -640,6 +639,10 @@ footer {
 /*  ====================================================== */
 /*  =================ABOUT US PAGE=============== */
 /*  ====================================================== */
+
+.dema-desc {
+  margin-bottom: 100px;
+}
 
 .about-us {
   background-color: rgb(245, 245, 245);
