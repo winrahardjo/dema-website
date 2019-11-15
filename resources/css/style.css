@@ -83,6 +83,7 @@ header {
 .main-navbar li {
   display: inline-block;
   margin-left: 5px;
+  font-weight: 400;
 }
 
 .main-navbar li a:link,
@@ -94,6 +95,7 @@ header {
   padding: 10px;
   border-radius: 10px;
   transition: background-color 0.3s, background 0.3s;
+  font-weight: 400;
 }
 
 .main-navbar li a:hover,
@@ -106,6 +108,7 @@ header {
   font-weight: 350;
   padding: 10px;
   border-radius: 10px;
+  font-weight: 400;
 }
 
 /* =========================== */
