@@ -256,6 +256,7 @@ h3:after {
 
 .section-jargon {
   margin-bottom: 0; /*add 20px from default */
+  margin-top: 60px;
 }
 
 .jargon-box {
