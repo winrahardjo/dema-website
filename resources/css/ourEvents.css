@@ -3,9 +3,9 @@
   margin-top: 10px;
 }
 
-/* .card-section {
-  width: 100%;
-} */
+.card-text#event-date {
+  padding-left: 10px;
+}
 
 /* bug fixer start here */
 .card-section#section-space {
